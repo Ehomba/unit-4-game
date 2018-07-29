@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Star Wars RPG</title>
+<!--Jquery-->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+<!--Bootstrap-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+<!--Reset-->
+<link rel="stylesheet" href="assets/css/reset.css">
+<!-- Css -->
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="container">
+        <!--Title card-->
+        <div class="jumbotron">
+            <h1 class="text-center">STAR WARS RPG</h1>
+        </div>
+        <!--Your Character-->
+    <div class="row">
+        <br>
+        <div class="col-lg-12" class="Choose"><h1 class="text-center">Choose Your Character!</h1></div>
+        <br>
+        <div class="col-lg-12" class"Character-Selection">
+
+            <div class="card" id="luke" style="width: 17rem;">
+                <img class="card-img-top" src="assets/images/luke.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <p  class="name">Luke Skywalker</p>
+                    <p class="card-text" class="health">200</p>
+                </div>
+            </div>
+            
+            <div class="card" id="mara" style="width: 17rem;">
+                <img class="card-img-top" src="assets/images/mara.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <p  class="name">Mara Jade</p>
+                    <p class="card-text" class="health">220</p>
+                </div>
+            </div>
+
+            <div class="card" id="kyle" style="width: 17rem;">
+                <img class="card-img-top" src="assets/images/kyle.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <p  class="name">Kyle Katarn</p>
+                    <p class="card-text" class="health">180</p>
+                </div>
+            </div>
+                          
+            <div class="card" id="kiadimundi" style="width: 17rem;">
+                <img class="card-img-top" src="assets/images/kiadimundi.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <p  class="name">Ki-Adi-Mundi</p>
+                    <p class="card-text" class="health">160</p>
+                </div>
+            </div>
+        </div>
+        <!--Your Character-->
+        <br>
+        <div class="col-lg-12" id="Your-Character"><h1 class="text-center">Your Character!</h1></div>
+        <!--Enemy-->
+        <br>
+        <div class="col-lg-12"><h1 class="text-center">Choose Your Enemy!</h1></div>
+        <!--Attack-->
+        <br>
+        <div class="col-lg-12" style="text-align: center" id="Attack-Div"><h1 class="text-center">Fight Section</h1>
+                <button class="btn btn-danger" id="attack">Attack</button>
+              </div>
+        <!--Defender-->
+        <br>
+        <div class="col-lg-12"><h1 class="text-center">Defender</h1></div>
+        <!--Message-->
+        <div class="col-lg-12" id="message-section">
+                <div id="game-message"></div>
+                <button id="restart">Restart</button>
+              </div>
+    </div>
+</div>
+<script type="text/javascript" src="assets/javascript/game.js">
+</script>
+</body>
+</html>
