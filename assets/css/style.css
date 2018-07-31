@@ -1,1 +1,17 @@
 .card {display:inline-block;}
+
+body {
+    font-family: 'Geostar Fill', cursive;
+    background-image: url("../images/background.jpg");
+}
+
+#jumbo {
+    font-size: 70px;
+}
+
+#head {
+    font-size: 40px;
+    color: brown;
+    font-weight: 400;   
+}
+
