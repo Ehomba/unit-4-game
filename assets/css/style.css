@@ -14,4 +14,16 @@ body {
     color: brown;
     font-weight: 400;   
 }
+#game-message {
+    font-size: 40px;
+    color: blue;
+    font-weight: 400;   
+}
+
+.jumbotron{
+    background-image: url("https://media.giphy.com/media/12kzXagstnQBSE/giphy.gif");
+    background-size: fill;
+    height: 200px;
+    width: 1200px;
+}
 
