@@ -147,18 +147,23 @@ $('#mara').click(function(){
     //make those enemies dissappear!
     if(enemySelected === marajade && enemySelected.health <= 0){
         $("#mara").hide();
+        $('#attack').hide();
         enemySelected = false;
+
     }
     if(enemySelected === lukeSkyWalker && enemySelected.health <= 0){
         $("#luke").hide();
+        $('#attack').hide();
         enemySelected = false;
     }
     if(enemySelected === kylekatarn && enemySelected.health <= 0){
         $("#kyle").hide();
+        $('#attack').hide();
         enemySelected = false;
     }
     if(enemySelected === kiadimundi && enemySelected.health <= 0){
         $("#kiadimundi").hide();
+        $('#attack').hide();
         enemySelected = false;
     }
 
